@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Viraj",
+      "filed": "Bca",
+      "subject": "React",
+      "marks": "50",
+      "grade": "A"
+    }
+  ]
+}

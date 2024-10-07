@@ -1,0 +1,107 @@
+body{
+    background-image: linear-gradient(to right, #bdc3c7 , #2c3e50);
+}
+.c-1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .c-11 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .record-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .record-table th,
+  .record-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .record-table thead {
+    background-color: #f4f4f9;
+  }
+  
+  .record-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .record-table tbody tr {
+    transition: background-color 0.2s ease;
+  }
+  
+  .record-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .record-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .record-table td button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .record-table td button:last-child {
+    background-color: #f44336;
+  }
+  
+  .record-table td button:hover {
+    background-color: #1e7fd3;
+  }
+  
+  .record-table td button:last-child:hover {
+    background-color: #e60000;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
